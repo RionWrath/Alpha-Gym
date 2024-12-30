@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-color: #000;
+    color: white;
+    text-align: default;
+    background-image: url(../images/login_bg.jpg);
+}
+
+
+/* banner section  */
+
+
+/* .banner-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+} */
+
+.banner-infor {
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+
+.logo {
+    width: 213px;
+    height: 36px;
+    background: url('') no-repeat;
+    margin: 30px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+}
+
+.company-logo {
+    color: white;
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item li {
+    list-style: none;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    padding: 23px;
+}
+
+.menu-item a:hover {
+    color: bisque;
+    background: rgb(115, 117, 115);
+}
+
+.table-container {
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.table-container {
+    width: 80%;
+    /* Sesuaikan lebar container sesuai kebutuhan */
+    margin: 20px auto;
+    /* Gunakan auto untuk menengahkan container */
+    /* Warna latar belakang container */
+    border-radius: 15px;
+    /* Sudut tumpul pada container */
+    overflow: hidden;
+    /* Pastikan overflow tersembunyi agar sudut tumpul terlihat dengan baik */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Optional: Tambahkan bayangan (shadow) untuk efek mendalam */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #000;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #000000;
+}
+
+td:first-child {
+    border-top-left-radius: 15px;
+    /* Sudut tumpul di sudut kiri atas (baris data) */
+}
+
+td:last-child {
+    border-top-right-radius: 15px;
+    /* Sudut tumpul di sudut kanan atas (baris data) */
+}

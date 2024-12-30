@@ -1,0 +1,321 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.company-logo {
+    color: rgb(255, 255, 255);
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item li {
+    list-style: none;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    padding: 23px;
+}
+
+.menu-item a:hover {
+    color: bisque;
+    background: rgb(115, 117, 115);
+}
+
+
+/* banner section  */
+
+.banner-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: black
+}
+
+.banner-infor {
+    margin-left: 10px;
+}
+
+.title1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+
+.text {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.banner-btn {
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: rgb(172, 86, 100);
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+.title2 {
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* card section  */
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.card1 {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px grey;
+    text-align: center;
+    padding: 20px;
+    transition: .4s;
+    margin-top: 40px;
+}
+
+.card1:hover {
+    height: 200px;
+    border: 1px solid rgb(201, 115, 115);
+    border-radius: 5px;
+    box-shadow: 2px 5px 10px rgb(216, 152, 152);
+    text-align: center;
+    padding: 20px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.card-icon {
+    width: 50px;
+}
+
+
+/* about us  */
+
+.about-section {
+    background-color: rgb(17, 17, 17);
+    margin-top: 80px;
+}
+
+.about-title1 {
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.about-title2 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.text {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.about-container {
+    display: flex;
+}
+
+.about-left {
+    width: 700px;
+    margin-right: 50px;
+    border-top: 1px solid red;
+}
+
+.about-right {
+    width: 700px;
+    border-top: 1px solid grey;
+}
+
+.about-img {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-img img {
+    width: 280px;
+    height: 400px;
+}
+
+.about-list li {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+    color: white;
+    list-style: square;
+}
+
+.about-btn {
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: rgb(172, 86, 100);
+    border-radius: 10px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.about-btn:hover {
+    background-color: blue;
+}
+
+.lets-btn {
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.lets-btn:hover {
+    background-color: blue;
+}
+
+
+/* services section  */
+
+.service-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+    text-decoration: none;
+    color: #000;
+}
+
+.service1 {
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    box-shadow: 15px 20px 20px grey;
+    transition: transform 0.2s ease-in-out;
+}
+
+.service-img img {
+    width: 100%;
+}
+
+.service1:hover {
+    transform: scale(0.95);
+    color: #555;
+}
+
+.service-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-title {
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.service-title1 {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.name-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.join {
+    color: red;
+}
+
+.batch {
+    position: relative;
+}
+
+.batch img {
+    width: 80px;
+    top: -50px;
+    left: 350px;
+    position: absolute;
+}
+
+.area {
+    margin-top: 80px;
+    width: 100%;
+    height: 250px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.link a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.copy {
+    margin-top: 10px;
+}
+
+span {
+    color: red;
+}

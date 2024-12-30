@@ -1,0 +1,78 @@
+body {
+    background-size: cover;
+    background-color: #000;
+    color: white;
+    text-align: left;
+    background-image: url(../images/login_bg.jpg);
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.profile-header {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: px;
+    max-width: 400px;
+    /* Sesuaikan dengan lebar yang diinginkan */
+}
+
+.profile-photo {
+    margin-top: 10px;
+}
+
+.profile-photo img {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-item li {
+    list-style: none;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: white;
+    padding: 23px;
+}
+
+.menu-item a:hover {
+    color: bisque;
+    background: rgb(115, 117, 115);
+}
+
+img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.6;
+}
